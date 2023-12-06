@@ -1,0 +1,84 @@
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-check-label {
+    margin-left: 1.3rem;
+}
+
+#btnActualizar {
+    margin-top: 1rem;
+}
+
+/* Cambiar el color del botón de enviar */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Cambiar el color del botón de enviar al pasar el mouse por encima */
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Cambiar el color del botón de enviar al hacer clic */
+.btn-primary:active {
+    background-color: #0062cc;
+    border-color: #005cbf;
+}
+
+/* Cambiar el color del botón de enviar cuando está deshabilitado */
+.btn-primary:disabled {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+/* Estilo para el mensaje de error del select */
+.select-items select:invalid {
+    border-color: tomato;
+}
+
+/* Estilo para el mensaje de error del select */
+.select-items select:invalid ~ small::before {
+    content: "Debe seleccionar un departamento.";
+    color: tomato;
+}
+
+/* Estilo para el mensaje de éxito del select */
+.select-items select:valid ~ small::before {
+    content: "Departamento seleccionado correctamente.";
+    color: green;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+#form-editar {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
